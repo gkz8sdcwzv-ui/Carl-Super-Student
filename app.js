@@ -159,7 +159,7 @@ function home() {
   const view = h('div', {});
 
   view.append(h('div', { class: 'top' },
-    h('div', {}, h('h1', {}, 'Carl lernt'), h('p', { class: 'sub' }, 'Wirtschaftswissenschaften · 1. Semester'))));
+    h('div', {}, h('h1', {}, 'Hohenheim Wiwi App'), h('p', { class: 'sub' }, 'Wirtschaftswissenschaften · 1. Semester'))));
 
   const ios = /iPhone|iPad|iPod/.test(navigator.userAgent);
   if (ios && !navigator.standalone && !state.hintDismissed && location.protocol.startsWith('http')) {

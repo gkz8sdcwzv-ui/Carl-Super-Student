@@ -1,0 +1,16 @@
+{
+  "name": "Hohenheim Wiwi App - 1. Semester",
+  "short_name": "Wiwi App",
+  "description": "Verständnisfragen zu VWL und BWL, 1. Semester",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f5f9",
+  "theme_color": "#3b5bdb",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
